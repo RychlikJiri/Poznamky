@@ -5,3 +5,23 @@ select role based or feature based installation
 select server from server pool
 select dns and dhcp
 click through and install
+
+Go to DHCP in server manager
+right click the server and select DHCP MANAGER
+right click ipv4 and select new scope
+name and describe the scope: select next
+enter starting and ending range of the ip adresses u want to get allocated and subnet mask
+add exlusion ranges if u want to
+select for how long the ip adress will last
+select dafault gateway if u want one
+skip skip skip skip skip
+finish
+range has been created
+
+how to create reserved ip addresses 
+go to ipv4 in dhcp manager
+go to scope
+go to reserved
+right click and select new reservation
+create the new reservation fill in ip address and mac address name etc.
+done
