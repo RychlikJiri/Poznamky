@@ -1,0 +1,7 @@
+startup dhcp
+go to dashboard
+add roles and features
+select role based or feature based installation
+select server from server pool
+select dns and dhcp
+click through and install
